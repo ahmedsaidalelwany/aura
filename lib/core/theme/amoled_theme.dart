@@ -1,11 +1,14 @@
 import 'package:aura/core/theme/styles_manager.dart';
 import 'package:flutter/material.dart';
+
+import 'app_theme_extensions.dart';
 import 'color_manager.dart';
 import 'font_manager.dart';
 
 abstract final class AmoledTheme {
   static ThemeData get theme {
     return ThemeData(
+      extensions: const [AppThemeExtension(isAmoled: true)],
       useMaterial3: true,
       brightness: Brightness.dark,
       scaffoldBackgroundColor: ColorManager.black,
