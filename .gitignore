@@ -46,6 +46,6 @@ app.*.map.json
 
 # Widget Preview related
 .widget_preview/
-!/lib/features/home/manager/
-!/lib/features/home/widgets/
-!/lib/features/storage/ui/
+!/lib/features/pages/home/manager/
+!/lib/features/pages/home/widgets/
+!/lib/features/pages/storage/ui/
