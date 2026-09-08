@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class WarningScreen extends StatelessWidget {
   const WarningScreen({
@@ -38,8 +39,8 @@ class WarningScreen extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Icon(icon, size: 72, color: colorScheme.error),
-                  const SizedBox(height: 24),
+                  Icon(icon, size: 72.sp, color: colorScheme.error),
+                  SizedBox(height: 24.h),
                   Text(
                     title,
                     textAlign: TextAlign.center,
@@ -47,7 +48,7 @@ class WarningScreen extends StatelessWidget {
                       fontWeight: FontWeight.w700,
                     ),
                   ),
-                  const SizedBox(height: 12),
+                  SizedBox(height: 12.h),
                   Text(
                     message,
                     textAlign: TextAlign.center,
@@ -56,7 +57,7 @@ class WarningScreen extends StatelessWidget {
                     ),
                   ),
                   if (actionLabel != null && onAction != null) ...[
-                    const SizedBox(height: 32),
+                    SizedBox(height: 32.h),
                     SizedBox(
                       width: double.infinity,
                       child: FilledButton(
@@ -67,7 +68,7 @@ class WarningScreen extends StatelessWidget {
                   ],
                   if (secondaryActionLabel != null &&
                       onSecondaryAction != null) ...[
-                    const SizedBox(height: 12),
+                    SizedBox(height: 12.h),
                     TextButton(
                       onPressed: onSecondaryAction,
                       child: Text(secondaryActionLabel!),
