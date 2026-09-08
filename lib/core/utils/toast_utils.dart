@@ -88,6 +88,7 @@ class ToastUtils {
       borderRadius: _defaultBorderRadius,
       boxShadow: _defaultBoxShadow,
       showProgressBar: true,
+      // ignore: deprecated_member_use
       closeButtonShowType: CloseButtonShowType.onHover,
       closeOnClick: false,
       pauseOnHover: true,
