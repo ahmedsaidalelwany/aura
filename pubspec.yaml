@@ -35,8 +35,8 @@ dependencies:
   mime: ^2.1.0
   path_provider: ^2.1.6
   open_filex: ^4.7.0
-  syncfusion_flutter_pdfviewer: ^34.2.6
-  syncfusion_flutter_pdf: ^34.2.6
+  syncfusion_flutter_pdfviewer: ^34.2.7
+  syncfusion_flutter_pdf: ^34.2.7
   universal_dockit: ^1.0.1
   flutter_html: ^3.0.0
   google_sign_in: ^7.2.0
@@ -44,6 +44,9 @@ dependencies:
   googleapis_auth: ^2.3.3
   extension_google_sign_in_as_googleapis_auth: ^3.0.0
   vibration: ^3.2.1
+  toastification: ^3.2.0
+  flutter_secure_storage: ^11.0.0  # or the latest version
+  encrypt: ^5.0.3
 
 dev_dependencies:
   flutter_test:
